@@ -1,0 +1,303 @@
+import { Badge } from '../ui/badge';
+import { FileText, Shield, AlertCircle } from 'lucide-react';
+
+export function TermsConditions() {
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Hero Section */}
+      <section className="relative py-16 md:py-20 overflow-hidden bg-accent/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-4 py-2 rounded-full">
+              <FileText className="w-4 h-4 text-primary" />
+              <span className="text-sm font-medium text-primary">
+                Legal
+              </span>
+            </div>
+
+            {/* Heading */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+              Terms & Conditions
+            </h1>
+
+            {/* Description */}
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Last updated: January 9, 2026
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Introduction */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-primary/5 border border-primary/20 rounded-3xl p-6 mb-12">
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <AlertCircle className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">Please Read Carefully</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    By accessing and using Taaluma.world, you agree to be bound by these Terms and 
+                    Conditions. If you do not agree with any part of these terms, please do not use 
+                    our platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {/* Section 1 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    Welcome to Taaluma! These Terms and Conditions ("Terms") govern your access to and 
+                    use of the Taaluma.world platform, including any content, functionality, and services 
+                    offered on or through our website and applications.
+                  </p>
+                  <p>
+                    By creating an account, purchasing content, or using any part of our platform, you 
+                    acknowledge that you have read, understood, and agree to be bound by these Terms, as 
+                    well as our Privacy Policy.
+                  </p>
+                  <p>
+                    If you are under 18 years old, you must have permission from a parent or legal guardian 
+                    to use Taaluma. By using our platform, you confirm that you have obtained such permission.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 2 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">2. Account Registration</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    To access certain features of Taaluma, you may be required to create an account. When 
+                    creating an account, you agree to:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li>Provide accurate, current, and complete information</li>
+                    <li>Maintain and update your information to keep it accurate and current</li>
+                    <li>Keep your password secure and confidential</li>
+                    <li>Notify us immediately of any unauthorized access to your account</li>
+                    <li>Accept responsibility for all activities that occur under your account</li>
+                  </ul>
+                  <p>
+                    We reserve the right to suspend or terminate accounts that violate these Terms or 
+                    provide false information.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 3 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">3. Content Purchases & Pricing</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    Taaluma offers two primary purchasing models:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li><strong>Chapter-by-Chapter:</strong> Purchase individual chapters of books at listed prices</li>
+                    <li><strong>Full Book:</strong> Purchase complete books when available</li>
+                  </ul>
+                  <p>
+                    All prices are displayed in USD and include applicable taxes. Prices may vary by content 
+                    and are subject to change at the author's or platform's discretion. Any price changes 
+                    will not affect purchases already completed.
+                  </p>
+                  <p>
+                    Purchased content is licensed to you for personal, non-commercial use only. You may not 
+                    share, redistribute, or resell purchased content.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 4 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">4. Payment Terms</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    Payment for all purchases must be made through our approved payment processors. By 
+                    making a purchase, you agree to:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li>Provide valid payment information</li>
+                    <li>Pay all charges incurred by you or anyone using your account</li>
+                    <li>Be responsible for all applicable taxes</li>
+                  </ul>
+                  <p>
+                    All sales are final. We do not offer refunds except as required by law or in cases of 
+                    technical errors that prevent access to purchased content.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 5 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">5. User Conduct</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    You agree not to use Taaluma to:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li>Violate any laws or regulations</li>
+                    <li>Infringe upon intellectual property rights</li>
+                    <li>Share account credentials with others</li>
+                    <li>Attempt to circumvent payment systems or security measures</li>
+                    <li>Upload viruses, malware, or harmful code</li>
+                    <li>Harass, abuse, or harm other users</li>
+                    <li>Impersonate another person or entity</li>
+                    <li>Use automated systems to access the platform (bots, scrapers, etc.)</li>
+                  </ul>
+                  <p>
+                    Violation of these conduct rules may result in immediate account suspension or termination.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 6 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">6. Intellectual Property Rights</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    All content on Taaluma, including books, chapters, text, graphics, logos, and software, 
+                    is the property of Taaluma, its authors, or licensors and is protected by copyright, 
+                    trademark, and other intellectual property laws.
+                  </p>
+                  <p>
+                    You are granted a limited, non-exclusive, non-transferable license to access and use 
+                    purchased content for personal use only. You may not:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li>Copy, modify, or create derivative works from the content</li>
+                    <li>Distribute, sell, or license the content to others</li>
+                    <li>Remove copyright notices or author attributions</li>
+                    <li>Use content for commercial purposes without permission</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Section 7 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">7. Age Requirements</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    Taaluma is designed for readers aged 12-19 years old. However, we welcome readers of 
+                    all ages who enjoy young adult literature.
+                  </p>
+                  <p>
+                    Users under 18 must have parental or guardian consent to use the platform and make 
+                    purchases. Parents and guardians are responsible for monitoring their child's use of 
+                    Taaluma and any purchases made.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 8 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">8. Disclaimers & Limitations of Liability</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    Taaluma is provided "as is" and "as available" without warranties of any kind, either 
+                    express or implied. We do not guarantee:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li>Uninterrupted or error-free service</li>
+                    <li>The accuracy or reliability of content</li>
+                    <li>That defects will be corrected</li>
+                    <li>Freedom from viruses or harmful components</li>
+                  </ul>
+                  <p>
+                    To the maximum extent permitted by law, Taaluma shall not be liable for any indirect, 
+                    incidental, special, consequential, or punitive damages arising from your use of the 
+                    platform.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 9 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">9. Termination</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    We reserve the right to suspend or terminate your account at any time, with or without 
+                    notice, for:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li>Violation of these Terms</li>
+                    <li>Fraudulent or illegal activity</li>
+                    <li>Prolonged inactivity</li>
+                    <li>Request by law enforcement or government agencies</li>
+                  </ul>
+                  <p>
+                    Upon termination, your right to use Taaluma will immediately cease. However, you will 
+                    retain access to previously purchased content in accordance with applicable laws.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 10 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">10. Changes to Terms</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    We may update these Terms from time to time. When we do, we will post the updated Terms 
+                    on this page and update the "Last Updated" date at the top.
+                  </p>
+                  <p>
+                    Continued use of Taaluma after changes are posted constitutes acceptance of the updated 
+                    Terms. We encourage you to review these Terms periodically.
+                  </p>
+                  <p>
+                    For significant changes, we will provide notice through email or a prominent notice on 
+                    our platform.
+                  </p>
+                </div>
+              </div>
+
+              {/* Section 11 */}
+              <div className="bg-white rounded-3xl p-8 shadow-sm">
+                <h2 className="text-2xl font-bold mb-4">11. Contact Information</h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    If you have questions about these Terms and Conditions, please contact us:
+                  </p>
+                  <div className="bg-accent/50 rounded-2xl p-4 space-y-2">
+                    <p><strong>Email:</strong> legal@taaluma.world</p>
+                    <p><strong>Support:</strong> support@taaluma.world</p>
+                    <p><strong>Website:</strong> www.taaluma.world</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer CTA */}
+      <section className="py-16 bg-accent/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-7 h-7 text-primary" />
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">Your Privacy Matters</h2>
+            <p className="text-muted-foreground mb-6">
+              Learn how we protect and handle your personal information
+            </p>
+            <a 
+              href="#" 
+              className="inline-block text-primary hover:text-primary-dark font-semibold"
+            >
+              Read our Privacy Policy →
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
